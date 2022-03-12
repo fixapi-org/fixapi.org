@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.fixapi.org/</loc>
+    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fixapi.org/blog/</loc>
+    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fixapi.org/blog/what-is-fix-api/</loc>
+    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fixapi.org/blog/1-fix-api-starter-application-class/</loc>
+    <lastmod>2021-07-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fixapi.org/blog/2-start-end-fix-api-starter-application/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fixapi.org/blog/3-start-data-fix-session/</loc>
+    <lastmod>2021-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fixapi.org/blog/4-start-order-fix-session/</loc>
+    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fixapi.org/blog/5-data-fix-api-class/</loc>
+    <lastmod>2021-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fixapi.org/blog/6-data-fix-api-class-basic-components/</loc>
+    <lastmod>2021-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fixapi.org/blog/7-fix-api-send-market-data-request-list/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fixapi.org/blog/8-fix-api-market-data-snapshot-full-refresh/</loc>
+    <lastmod>2021-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fixapi.org/blog/9-fix-api-market-data-incremental-refresh/</loc>
+    <lastmod>2021-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fixapi.org/blog/10-order-fix-api-class/</loc>
+    <lastmod>2021-07-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fixapi.org/blog/11-order-fix-api-class-basic-components/</loc>
+    <lastmod>2021-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fixapi.org/blog/12-fix-api-send-market-order/</loc>
+    <lastmod>2021-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fixapi.org/blog/13-fix-api-execution-report/</loc>
+    <lastmod>2021-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fixapi.org/blog/14-end-data-fix-session/</loc>
+    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fixapi.org/blog/15-end-order-fix-session/</loc>
+    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.fixapi.org/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.fixapi.org/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.fixapi.org/tags/</loc>
+  </url>
+  
+</urlset>

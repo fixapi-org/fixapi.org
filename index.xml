@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>We make FIX API easier to use.</title>
+    <link>https://www.fixapi.org/</link>
+    <description>Recent content on We make FIX API easier to use.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 16 Jul 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.fixapi.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What is FIX API? Why is FIX API helpful?</title>
+      <link>https://www.fixapi.org/blog/what-is-fix-api/</link>
+      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fixapi.org/blog/what-is-fix-api/</guid>
+      <description>FIX API. FIX is the so-called Financial Information eXchange (FIX) protocol.</description>
+    </item>
+    
+    <item>
+      <title>FIX API Starter Application Class</title>
+      <link>https://www.fixapi.org/blog/1-fix-api-starter-application-class/</link>
+      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fixapi.org/blog/1-fix-api-starter-application-class/</guid>
+      <description>This is the FIX API Starter Application Class.
+It includes:</description>
+    </item>
+    
+    <item>
+      <title>Start &amp; End FIX API Starter Application</title>
+      <link>https://www.fixapi.org/blog/2-start-end-fix-api-starter-application/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fixapi.org/blog/2-start-end-fix-api-starter-application/</guid>
+      <description>This part includes the main function for initialization and the onExit function for destruction.</description>
+    </item>
+    
+    <item>
+      <title>Start Data FIX Session</title>
+      <link>https://www.fixapi.org/blog/3-start-data-fix-session/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fixapi.org/blog/3-start-data-fix-session/</guid>
+      <description>This part of the FIX API Starter application takes the responsibility to start a FIX API Data Session.</description>
+    </item>
+    
+    <item>
+      <title>Start Order FIX Session</title>
+      <link>https://www.fixapi.org/blog/4-start-order-fix-session/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fixapi.org/blog/4-start-order-fix-session/</guid>
+      <description>This part of the FIX API Starter application takes the responsibility to start a FIX API Order Session.</description>
+    </item>
+    
+    <item>
+      <title>Data FIX API Class</title>
+      <link>https://www.fixapi.org/blog/5-data-fix-api-class/</link>
+      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fixapi.org/blog/5-data-fix-api-class/</guid>
+      <description>This is the main engine for FIX API Data session.</description>
+    </item>
+    
+    <item>
+      <title>Data FIX API Class Basic Components</title>
+      <link>https://www.fixapi.org/blog/6-data-fix-api-class-basic-components/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fixapi.org/blog/6-data-fix-api-class-basic-components/</guid>
+      <description>These are the basic components for FIX API Data class.</description>
+    </item>
+    
+    <item>
+      <title>DATA FIX API ~ Send Market Data Request List</title>
+      <link>https://www.fixapi.org/blog/7-fix-api-send-market-data-request-list/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fixapi.org/blog/7-fix-api-send-market-data-request-list/</guid>
+      <description>This is a function to send a subscription request message for streaming quotes.</description>
+    </item>
+    
+    <item>
+      <title>DATA FIX API ~ Market Data Snapshot Full Refresh</title>
+      <link>https://www.fixapi.org/blog/8-fix-api-market-data-snapshot-full-refresh/</link>
+      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fixapi.org/blog/8-fix-api-market-data-snapshot-full-refresh/</guid>
+      <description>This is a callback function to receive streaming quote messages once the market movements change.</description>
+    </item>
+    
+    <item>
+      <title>DATA FIX API ~ Market Data Incremental Refresh</title>
+      <link>https://www.fixapi.org/blog/9-fix-api-market-data-incremental-refresh/</link>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fixapi.org/blog/9-fix-api-market-data-incremental-refresh/</guid>
+      <description>This is a callback function to receive streaming quote messages once the market movements change.</description>
+    </item>
+    
+    <item>
+      <title>Order FIX API Class</title>
+      <link>https://www.fixapi.org/blog/10-order-fix-api-class/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fixapi.org/blog/10-order-fix-api-class/</guid>
+      <description>This is the main engine for FIX API Order/Trade session.</description>
+    </item>
+    
+    <item>
+      <title>Order FIX API Class Basic Components</title>
+      <link>https://www.fixapi.org/blog/11-order-fix-api-class-basic-components/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fixapi.org/blog/11-order-fix-api-class-basic-components/</guid>
+      <description>These are the basic components for FIX API Order class.</description>
+    </item>
+    
+    <item>
+      <title>ORDER FIX API ~ Send Market Order</title>
+      <link>https://www.fixapi.org/blog/12-fix-api-send-market-order/</link>
+      <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fixapi.org/blog/12-fix-api-send-market-order/</guid>
+      <description>This is a function to send a message to place an order.</description>
+    </item>
+    
+    <item>
+      <title>ORDER FIX API ~ Execution Report</title>
+      <link>https://www.fixapi.org/blog/13-fix-api-execution-report/</link>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fixapi.org/blog/13-fix-api-execution-report/</guid>
+      <description>This is the most important callback function to receive execution report message once the status of an order changes.</description>
+    </item>
+    
+    <item>
+      <title>End Data FIX Session</title>
+      <link>https://www.fixapi.org/blog/14-end-data-fix-session/</link>
+      <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fixapi.org/blog/14-end-data-fix-session/</guid>
+      <description>This method will be called to close FIX API Data session.</description>
+    </item>
+    
+    <item>
+      <title>End Order FIX Session</title>
+      <link>https://www.fixapi.org/blog/15-end-order-fix-session/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fixapi.org/blog/15-end-order-fix-session/</guid>
+      <description>This method will be called to close FIX API Order session.</description>
+    </item>
+    
+    <item>
+      <title>contact</title>
+      <link>https://www.fixapi.org/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fixapi.org/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
