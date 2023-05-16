@@ -417,7 +417,7 @@ if (!doNotTrack) {
 	<span style="color:#f92672">}</span>
 
 	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">logout</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-    sendMarketDataRequestList<span style="color:#f92672">(</span>SubscriptionRequestType<span style="color:#f92672">.</span><span style="color:#a6e22e">DISABLE_PREVIOUS_SNAPSHOT_UPDATE_REQUEST</span><span style="color:#f92672">);</span>
+		sendMarketDataRequestList<span style="color:#f92672">(</span>SubscriptionRequestType<span style="color:#f92672">.</span><span style="color:#a6e22e">DISABLE_PREVIOUS_SNAPSHOT_UPDATE_REQUEST</span><span style="color:#f92672">);</span>
 
 		Logout mdr <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Logout<span style="color:#f92672">();</span>
 		send<span style="color:#f92672">(</span>mdr<span style="color:#f92672">);</span>
