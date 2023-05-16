@@ -402,8 +402,6 @@ if (!doNotTrack) {
 				message<span style="color:#f92672">.</span><span style="color:#a6e22e">setInt</span><span style="color:#f92672">(</span>EncryptMethod<span style="color:#f92672">.</span><span style="color:#a6e22e">FIELD</span><span style="color:#f92672">,</span> EncryptMethod<span style="color:#f92672">.</span><span style="color:#a6e22e">NONE_OTHER</span><span style="color:#f92672">);</span>
 			<span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>message <span style="color:#66d9ef">instanceof</span> Logout<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
 				logger<span style="color:#f92672">.</span><span style="color:#a6e22e">info</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Data logged out via toAdmin &#34;</span> <span style="color:#f92672">+</span> <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">userName</span><span style="color:#f92672">);</span>
-
-				sendMarketDataRequestList<span style="color:#f92672">(</span>SubscriptionRequestType<span style="color:#f92672">.</span><span style="color:#a6e22e">DISABLE_PREVIOUS_SNAPSHOT_UPDATE_REQUEST</span><span style="color:#f92672">);</span>
 			<span style="color:#f92672">}</span>
 		<span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>Exception e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
 			e<span style="color:#f92672">.</span><span style="color:#a6e22e">printStackTrace</span><span style="color:#f92672">();</span>
@@ -419,6 +417,8 @@ if (!doNotTrack) {
 	<span style="color:#f92672">}</span>
 
 	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">logout</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+    sendMarketDataRequestList<span style="color:#f92672">(</span>SubscriptionRequestType<span style="color:#f92672">.</span><span style="color:#a6e22e">DISABLE_PREVIOUS_SNAPSHOT_UPDATE_REQUEST</span><span style="color:#f92672">);</span>
+
 		Logout mdr <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Logout<span style="color:#f92672">();</span>
 		send<span style="color:#f92672">(</span>mdr<span style="color:#f92672">);</span>
 	<span style="color:#f92672">}</span>
@@ -431,8 +431,6 @@ if (!doNotTrack) {
 
 	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onLogout</span><span style="color:#f92672">(</span>SessionID sessionID<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
 		logger<span style="color:#f92672">.</span><span style="color:#a6e22e">warn</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Data logged out via onLogout&#34;</span> <span style="color:#f92672">+</span> <span style="color:#f92672">(</span>userName <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">?</span> <span style="color:#e6db74">&#34;&#34;</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#34; for &#34;</span> <span style="color:#f92672">+</span> userName<span style="color:#f92672">)</span> <span style="color:#f92672">);</span>
-
-		sendMarketDataRequestList<span style="color:#f92672">(</span>SubscriptionRequestType<span style="color:#f92672">.</span><span style="color:#a6e22e">DISABLE_PREVIOUS_SNAPSHOT_UPDATE_REQUEST</span><span style="color:#f92672">);</span>
 	<span style="color:#f92672">}</span>
 
 	<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">send</span><span style="color:#f92672">(</span>Message message<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
